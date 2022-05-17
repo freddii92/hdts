@@ -1,0 +1,185 @@
+.title {
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.tablesInventory{
+    padding-top: 20px;
+}
+
+.buttons{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search {
+    width: 40%;
+    border-collapse: collapse;
+    display:inline-block;
+}
+
+.search_option {
+    width: 10%;
+    border-collapse: collapse;
+    display:inline-block;
+}
+
+.filter {
+    width: 20%;
+    border-collapse: collapse;
+    display:inline-block;
+}
+
+.addHDForm{
+    display: none;
+    padding: 10px;
+}
+
+.formDisplay{
+    margin: 10px 0px 10px;
+    padding: 10px 5px 10px;
+    background-color: #c9c9c9;
+    font-weight: bold;
+}
+
+input[type=text] {
+    margin-bottom: 5px;
+    border: 0px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:hover{
+    background: #aba9a9;
+}
+
+.requestOpenClassified {
+    border-collapse: collapse;
+    width: 50%;
+}
+th{
+    background-color: #818181;
+    color: white;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+/* border-bottom: 1px solid #ddd; */
+}
+.tablesInventory tr:hover {
+    transition-duration: 0.4s;
+    background-color: #062e94;
+    color: white;
+}
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin-left:-5px;
+    margin-right:-5px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+#requestOpenClassified table{border:ridge 3px grey; border-collapse: collapse;  }
+#requestOpenClassified table td       {border:inset 1px black;}
+
+#listRequests table{border:ridge 3px grey; border-collapse: collapse;  }
+#listRequests table td       {border:inset 1px black;}
+
+table tr#ROW0  {background-color:white; color:black; width:50%;}
+table tr#ROWcontInfo  {background-color:lightgray; color:black; width:100%;}
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+#requestOpenClassified{
+    transition-duration: 0.4s;
+    width: 0%;
+    float: left;
+    display: none;
+    background-color: white;
+}
+
+#listRequests{
+    transition-duration: 0.4s;
+    float: right;
+    width: 100%;
+    border-collapse: collapse;
+    padding-left: 20px;
+}
+
+
+
+.buttonAddHD{
+    float: right;
+    background-color: #818181;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.buttonAddHD:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.buttonsForm{
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: none;
+    color: #818181;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.buttonsForm:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+a:hover {
+    text-decoration: none;
+}
+  
+a:active {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+}
+  
+  
+a:visited {
+    color: rgb(0, 0, 0);
+}
+  
+  
+a:hover {
+    color: rgb(0, 0, 0);
+}
+  
+  
+a:active {
+    color: rgb(0, 0, 0);
+}

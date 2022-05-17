@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,50,0.5), rgba(0,0,50,0.5)),url();
+	background-size: cover;
+	background-position: center;
+	font-family:sans-seriff;
+}
+
+
+.btn-group button1 {
+  background-color: #04AA6D; /*Green*/
+  border:none; 
+  color: white;
+  width: 100px;
+
+}
+
+.btn-group button2 {
+  background-color: #EB144C; /*Red*/
+  border: none; 
+  color: white; 
+  width: 100px; 
+
+}
